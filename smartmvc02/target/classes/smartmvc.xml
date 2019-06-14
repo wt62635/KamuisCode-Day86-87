@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- 
+		配置处理器:
+			DispatcherServlet会读取该配置信息，
+		然后利用java反射将处理器实例化。
+	 -->
+	<bean class="controller.HelloController"/>
+	<bean class="controller.LoginController"/>
+</beans>
+
